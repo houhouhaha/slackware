@@ -1,0 +1,13 @@
+; revp.192.168.10
+$TTL 86400
+$ORIGIN 10.168.192.IN-ADDR.ARPA.
+@ IN SOA lucullus.lucullus.org. hostmaster.lucullus.org. (
+    2014032702 ; serial
+    3H         ; refresh
+    15M        ; retry
+    1W         ; expiry
+    1D )       ; minimum
+    IN   NS  lucullus.lucullus.org.
+1   IN   PTR lucullus.lucullus.org.
+2   IN   PTR lucullus-client.lucullus.org.
+
